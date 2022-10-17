@@ -24,3 +24,14 @@ public class Main {
         );
     }
 }
+
+/*
+    Input: 50.25 5 Summer VIP
+    Output: 804.00
+
+    Input: 40 10 Autumn SecondVisit
+    Output: 360.00
+
+    Input: 120.20 2 Winter None 
+    Output: 721.20
+ */

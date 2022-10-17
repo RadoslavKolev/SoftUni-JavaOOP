@@ -33,3 +33,53 @@ public class Main {
                 .toArray();
     }
 }
+
+/*
+    Input:
+    0 0 3 3
+    5
+    0 0
+    0 1
+    4 4
+    5 3
+    1 2
+
+    Output:
+    true
+    true
+    false
+    false
+    true
+--------------------------------
+    Input:
+    2 -3 12 3
+    4
+    8 -1
+    11 3
+    1 1
+    2 4
+
+    Output:
+    true
+    true
+    false
+    false
+--------------------------------
+    Input:
+    5 8 12 15
+    6
+    0 0
+    5 8
+    12 15
+    8 15
+    7 15
+    8 12
+
+    Output:
+    false
+    true
+    true
+    true
+    true
+    true
+ */

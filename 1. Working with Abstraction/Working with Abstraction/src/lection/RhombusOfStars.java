@@ -29,3 +29,22 @@ public class RhombusOfStars {
         System.out.println("*");
     }
 }
+
+/*
+    Input: 1
+    Output: *
+
+    Input: 2
+    Output:
+        *
+       * *
+        *
+
+    Input: 3
+    Output:
+        *
+       * *
+      * * *
+       * *
+        *
+ */
