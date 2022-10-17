@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="1. Working with Abstraction">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Exercises.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Lab.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e2c6322-e84b-4c01-8815-e451c8c48d81" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/.idea/0. Associative Arrays, Lambda and Stream API.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/1. Exercise.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/2. Lab.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/Associative Arrays.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/out/production/Associative Arrays/exercise/CountRealNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/out/production/Associative Arrays/exercise/OddOccurrences.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/out/production/Associative Arrays/exercise/WordFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/out/production/Associative Arrays/exercise/WordsSynonyms.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/out/production/Associative Arrays/lab/CountCharsInAString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/src/exercise/CountRealNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/src/exercise/OddOccurrences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/src/exercise/WordFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/src/exercise/WordsSynonyms.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Associative Arrays, Lambda and Stream API/Associative Arrays/src/lab/CountCharsInAString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/.idea/0. Lists.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/2. Exercise.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/Lists.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/out/production/Lists/lab/AppendArrays.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/out/production/Lists/lab/BombNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/out/production/Lists/lab/CardsGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/out/production/Lists/lab/ChangeList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/out/production/Lists/lab/HouseParty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/out/production/Lists/lab/ListOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/out/production/Lists/lab/Train.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/out/production/Lists/lection/GaussTrick.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/out/production/Lists/lection/MergingLists.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/out/production/Lists/lection/SumAdjacentEqualNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/src/lab/AppendArrays.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/src/lab/BombNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/src/lab/CardsGame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/src/lab/ChangeList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/src/lab/HouseParty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/src/lab/ListOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/src/lab/Train.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/src/lection/GaussTrick.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/src/lection/MergingLists.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../0. Lists/Lists/src/lection/SumAdjacentEqualNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/1. Presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/2. Lab.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/3. Exercise.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/StacksAndQueues.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lab/BalancedParentheses.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lab/BasicQueueOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lab/BasicStackOperations.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lab/MaximumElement.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lab/RecursiveFibonacciMemorization.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lab/RecursiveFibonacciQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lab/RecursiveFibonacciStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lab/ReverseNumbersWithStack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lab/SimpleTextEditor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lection/BrowserHistory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lection/BrowserHistoryUpgrade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lection/DecimalToBinary.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lection/HotPotato.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lection/MatchingBrackets.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lection/MathPotato.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lection/PrinterQueue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/out/production/StacksAndQueues/lection/SimpleCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lab/BalancedParentheses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lab/BasicQueueOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lab/BasicStackOperations.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lab/MaximumElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lab/RecursiveFibonacciMemorization.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lab/RecursiveFibonacciQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lab/RecursiveFibonacciStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lab/ReverseNumbersWithStack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lab/SimpleTextEditor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lection/BrowserHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lection/BrowserHistoryUpgrade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lection/DecimalToBinary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lection/HotPotato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lection/MatchingBrackets.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lection/MathPotato.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lection/PrinterQueue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../1. Stacks and Queues/StacksAndQueues/src/lection/SimpleCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10. Exam Preparation/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10. Exam Preparation/.idea/10. Exam Preparation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10. Exam Preparation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10. Exam Preparation/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10. Exam Preparation/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10. Exam Preparation/1.1. Autumn Cocktails.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10. Exam Preparation/1.2. Cooking Journey.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10. Exam Preparation/1.3 Car Dealership.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10. Exam Preparation/2.1 Bouquetes.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10. Exam Preparation/2.2 Selling.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../10. Exam Preparation/Exam Preparation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/.idea/2. Multidimensional Arrays.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/1. Presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/2. Lab.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/3. Exercise.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/Multidimensional Arrays.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/out/production/Multidimensional Arrays/lab/DiagonalDifference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/out/production/Multidimensional Arrays/lab/FillTheMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/out/production/Multidimensional Arrays/lab/MatrixOfPalindromes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/out/production/Multidimensional Arrays/lab/MatrixShuffling.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/out/production/Multidimensional Arrays/lab/MaximalSum.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/out/production/Multidimensional Arrays/lab/RadioactiveMutantVampireBunnies.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/out/production/Multidimensional Arrays/lab/StringMatrixRotation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/out/production/Multidimensional Arrays/lection/CompareMatrices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/out/production/Multidimensional Arrays/lection/IntersectionOfTwoMatrices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/out/production/Multidimensional Arrays/lection/MaxSumOf2X2Submatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/out/production/Multidimensional Arrays/lection/PositionsOf.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/out/production/Multidimensional Arrays/lection/PrintDiagonalsOfSquareMatrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/out/production/Multidimensional Arrays/lection/SumMatrixElements.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/src/lab/DiagonalDifference.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/src/lab/FillTheMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/src/lab/MatrixOfPalindromes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/src/lab/MatrixShuffling.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/src/lab/MaximalSum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/src/lab/StringMatrixRotation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/src/lection/CompareMatrices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/src/lection/IntersectionOfTwoMatrices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/src/lection/MaxSumOf2X2Submatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/src/lection/PositionsOf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/src/lection/PrintDiagonalsOfSquareMatrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../2. Multidimensional Arrays/Multidimensional Arrays/src/lection/SumMatrixElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/.idea/3. Sets and Maps Advanced.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/1. Presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/2. Lab.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/3. Exercise.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/Maps and Sets.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/out/production/Maps and Sets/lection/AcademyGraduation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/out/production/Maps and Sets/lection/AverageStudentGrades.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/out/production/Maps and Sets/lection/CitiesByContinentAndCountry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/out/production/Maps and Sets/lection/CountRealNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/out/production/Maps and Sets/lection/LargestThreeNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/out/production/Maps and Sets/lection/ParkingLot.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/out/production/Maps and Sets/lection/ProductShop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/out/production/Maps and Sets/lection/SoftUniParty.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/out/production/Maps and Sets/lection/Voina.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/src/lection/AcademyGraduation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/src/lection/AverageStudentGrades.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/src/lection/CitiesByContinentAndCountry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/src/lection/CountRealNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/src/lection/LargestThreeNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/src/lection/ParkingLot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/src/lection/ProductShop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/src/lection/SoftUniParty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../3. Sets and Maps Advanced/Maps and Sets/src/lection/Voina.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/.idea/4. Streams, Files and Directories.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/1. Presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/2. Lab.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/3. Exercises.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/Streams Files and Directories.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/out/production/Streams Files and Directories/LiveDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/out/production/Streams Files and Directories/lection/CopyBytes.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/out/production/Streams Files and Directories/lection/ExtractIntegers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/out/production/Streams Files and Directories/lection/ListFiles.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/out/production/Streams Files and Directories/lection/NestedFolders.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/out/production/Streams Files and Directories/lection/ReadFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/out/production/Streams Files and Directories/lection/SortLines.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/out/production/Streams Files and Directories/lection/WriteEveryThirdLine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/out/production/Streams Files and Directories/lection/WriteToFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/src/LiveDemo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/src/lection/CopyBytes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/src/lection/ExtractIntegers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/src/lection/ListFiles.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/src/lection/NestedFolders.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/src/lection/ReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/src/lection/SortLines.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/src/lection/WriteEveryThirdLine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Streams Files and Directories/src/lection/WriteToFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/02.WriteToFileOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/03.CopyBytesOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/04.ExtractIntegersOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/05.WriteEveryThirdLineOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/06.SortLinesOutput.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Files-and-Streams/Serialization/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Files-and-Streams/Serialization/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Files-and-Streams/Streams-and-Files/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Files-and-Streams/Streams-and-Files/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Files-and-Streams/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Files-and-Streams/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Serialization/Files-and-Streams/Serialization/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Serialization/Files-and-Streams/Serialization/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Serialization/Files-and-Streams/Streams-and-Files/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Serialization/Files-and-Streams/Streams-and-Files/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Serialization/Files-and-Streams/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Serialization/Files-and-Streams/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Serialization/Streams-and-Files/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Serialization/Streams-and-Files/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Serialization/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Serialization/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Files-and-Streams/Serialization/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Files-and-Streams/Serialization/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Files-and-Streams/Streams-and-Files/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Files-and-Streams/Streams-and-Files/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Files-and-Streams/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Files-and-Streams/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Serialization/Files-and-Streams/Serialization/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Serialization/Files-and-Streams/Serialization/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Serialization/Files-and-Streams/Streams-and-Files/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Serialization/Files-and-Streams/Streams-and-Files/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Serialization/Files-and-Streams/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Serialization/Files-and-Streams/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Serialization/Streams-and-Files/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Serialization/Streams-and-Files/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Serialization/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/Serialization/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/Streams-and-Files/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/Files-and-Streams/output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4. Streams, Files and Directories/Ресурси/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/.idea/5. Functional Programming.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/1. Presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/2. Lab.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/3. Exercises.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/Functional Programming.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/out/production/Functional Programming/lection/AddVAT.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/out/production/Functional Programming/lection/CountUppercaseWords.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/out/production/Functional Programming/lection/FilterByAge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/out/production/Functional Programming/lection/FindEvensOrOdds.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/out/production/Functional Programming/lection/SortEvenNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/out/production/Functional Programming/lection/SumNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/src/lection/AddVAT.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/src/lection/CountUppercaseWords.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/src/lection/FilterByAge.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/src/lection/FindEvensOrOdds.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/src/lection/SortEvenNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5. Functional Programming/Functional Programming/src/lection/SumNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/.idea/6. Defining Classes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/1. Presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/2. Lab.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/3. Exercise.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/Defining Classes.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/carSalesman.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/carSalesman/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/carSalesman/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/carSalesman/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/companyRoster/Department.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/companyRoster/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/companyRoster/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/google/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/google/Child.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/google/Company.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/google/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/google/Parent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/google/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/google/Pokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/opinionPoll/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/opinionPoll/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/pokemonTrainer/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/pokemonTrainer/Pokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/pokemonTrainer/Trainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/rawData/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/rawData/Cargo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/rawData/Engine.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/rawData/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/rawData/Tire.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/speedRacing/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/exercise/speedRacing/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/lection/bankAccount/BankAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/lection/bankAccount/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/lection/carInfo/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/lection/carInfo/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/lection/constructors/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/out/production/Defining Classes/lection/constructors/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/carSalesman/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/carSalesman/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/carSalesman/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/companyRoster/Department.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/companyRoster/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/companyRoster/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/exercise.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/google/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/google/Child.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/google/Company.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/google/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/google/Parent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/google/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/google/Pokemon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/opinionPoll/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/opinionPoll/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/pokemonTrainer/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/pokemonTrainer/Pokemon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/pokemonTrainer/Trainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/rawData/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/rawData/Cargo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/rawData/Engine.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/rawData/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/rawData/Tire.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/speedRacing/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/exercise/speedRacing/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/lection/bankAccount/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/lection/bankAccount/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/lection/carInfo/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/lection/carInfo/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/lection/constructors/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../6. Defining Classes/Defining Classes/src/lection/constructors/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/.idea/8. Generics.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/1. Presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/2. Lab.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/3. Exercise.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/Generics.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/out/production/Generics/genericArrayCreator/ArrayCreator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/out/production/Generics/genericArrayCreator/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/out/production/Generics/genericScale/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/out/production/Generics/genericScale/Scale.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/out/production/Generics/jar/Jar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/out/production/Generics/jar/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/out/production/Generics/listUtilities/ListUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/out/production/Generics/listUtilities/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/src/lection/genericArrayCreator/ArrayCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/src/lection/genericArrayCreator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/src/lection/genericScale/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/src/lection/genericScale/Scale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/src/lection/jar/Jar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/src/lection/jar/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/src/lection/listUtilities/ListUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../8. Generics/Generics/src/lection/listUtilities/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/.idea/9. Iterators and Comparators.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/1. Presentation.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/2. Lab.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/3. Exercise.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/Iterators and Comparators.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/Iterators and Comparators.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/collection/ListyIterator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/collection/ListyIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/collection/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/comparingObjects/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/comparingObjects/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/froggy/Lake$Frog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/froggy/Lake.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/froggy/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/listyIterator/ListyIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/listyIterator/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/stackIterator/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/stackIterator/Stack$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/stackIterator/Stack.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/strategyPattern/AgeComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/strategyPattern/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/strategyPattern/NameComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/exercise/strategyPattern/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/lection/book/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/lection/book/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/lection/bookComparator/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/lection/bookComparator/BookComparator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/lection/bookComparator/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/lection/comparableBook/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/lection/comparableBook/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/lection/library/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/lection/library/Library$LibraryIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/lection/library/Library.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/out/production/Iterators and Comparators/lection/library/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/exercise/collection/ListyIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/exercise/collection/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/exercise/comparingObjects/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/exercise/comparingObjects/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/exercise/froggy/Lake.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/exercise/froggy/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/exercise/listyIterator/ListyIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/exercise/listyIterator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/exercise/stackIterator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/exercise/stackIterator/Stack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/exercise/strategyPattern/AgeComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/exercise/strategyPattern/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/exercise/strategyPattern/NameComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/exercise/strategyPattern/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/lection/book/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/lection/book/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/lection/bookComparator/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/lection/bookComparator/BookComparator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/lection/bookComparator/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/lection/comparableBook/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/lection/comparableBook/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/lection/library/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/lection/library/Library.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../9. Iterators and Comparators/Iterators and Comparators/src/lection/library/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2GFlsOXyYmLiKNf1uUTkw87OyH5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e2c6322-e84b-4c01-8815-e451c8c48d81" name="Changes" comment="" />
+      <created>1665992420957</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665992420957</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
