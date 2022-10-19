@@ -32,6 +32,6 @@ public class Main {
     Input: 40 10 Autumn SecondVisit
     Output: 360.00
 
-    Input: 120.20 2 Winter None 
+    Input: 120.20 2 Winter None
     Output: 721.20
  */
