@@ -1,10 +1,9 @@
-package lection.sortByNameAndAge;
+package lection.validationData;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public class Main {
@@ -13,16 +12,14 @@ public class Main {
 
         int n = Integer.parseInt(reader.readLine());
 
-        List<Person> people = new ArrayList<>(n);
+        List<Person> people = new ArrayList<>();
 
         fillPeople(reader, n, people);
 
-        people.sort(Comparator
-                .comparing(Person::getFirstName)
-                .thenComparingInt(Person::getAge)
-        );
+        double bonus = Double.parseDouble(reader.readLine());
 
         for (Person person : people) {
+            person.increaseSalary(bonus);
             System.out.println(person);
         }
     }
@@ -34,8 +31,17 @@ public class Main {
             String firstName = tokens[0];
             String lastName = tokens[1];
             int age = Integer.parseInt(tokens[2]);
+            double salary = Double.parseDouble(tokens[3]);
 
-            people.add(new Person(firstName, lastName, age));
+            validate(people, firstName, lastName, age, salary);
+        }
+    }
+
+    private static void validate(List<Person> people, String firstName, String lastName, int age, double salary) {
+        try {
+            people.add(new Person(firstName, lastName, age, salary));
+        } catch (IllegalArgumentException err) {
+            System.out.println(err.getMessage());
         }
     }
 }
