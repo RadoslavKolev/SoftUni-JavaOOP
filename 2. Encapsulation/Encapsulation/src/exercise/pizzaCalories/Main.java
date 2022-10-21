@@ -6,55 +6,40 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        String[] tokens = scanner.nextLine().replace("Pizza ", "").split("\\s+");
+        String[] tokens = scanner.nextLine().split("\\s+");
 
-        String pizzaName = tokens[0];
-        int numberOfToppings = Integer.parseInt(tokens[1]);
+        String pizzaName = tokens[1];
+        int numberOfToppings = Integer.parseInt(tokens[2]);
 
-        Pizza pizza;
+        tokens = scanner.nextLine().split("\\s+");
 
-        try {
-            pizza = new Pizza(pizzaName, numberOfToppings);
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-            return;
-        }
-
-        tokens = scanner.nextLine().replace("Dough ", "").split("\\s+");
-
-        String flourType = tokens[0];
-        String bakingTechnique = tokens[1];
-        double doughWeight = Double.parseDouble(tokens[2]);
-
-        Dough dough;
+        String flourType = tokens[1];
+        String bakingTechnique = tokens[2];
+        double doughWeight = Double.parseDouble(tokens[3]);
 
         try {
-            dough = new Dough(flourType, bakingTechnique, doughWeight);
+            Pizza pizza = new Pizza(pizzaName, numberOfToppings);
+            Dough dough = new Dough(flourType, bakingTechnique, doughWeight);
+
             pizza.setDough(dough);
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-            return;
-        }
 
-        String input = scanner.nextLine();
+            String input = scanner.nextLine();
 
-        while (!input.equals("END")) {
-            String[] elements = input.replace("Topping ", "").split("\\s+");
+            while (!input.equals("END")) {
+                tokens = input.split("\\s+");
 
-            String toppingType = elements[0];
-            double toppingWeight = Double.parseDouble(elements[1]);
+                String toppingType = tokens[1];
+                double toppingWeight = Double.parseDouble(tokens[2]);
 
-            try {
                 Topping topping = new Topping(toppingType, toppingWeight);
                 pizza.addTopping(topping);
-            } catch (IllegalArgumentException e) {
-                System.out.println(e.getMessage());
-                return;
+
+                input = scanner.nextLine();
             }
 
-            input = scanner.nextLine();
+            System.out.printf("%s - %.2f%n", pizzaName, pizza.getOverallCalories());
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
         }
-
-        System.out.printf("%s - %.2f%n", pizzaName, pizza.getOverallCalories());
     }
 }

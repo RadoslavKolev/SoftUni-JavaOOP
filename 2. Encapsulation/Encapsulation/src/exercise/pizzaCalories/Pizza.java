@@ -14,7 +14,7 @@ public class Pizza {
     }
 
     private void setName(String name) {
-        if (name.length() < 1 || name.length() > 15) {
+        if (name.trim().isEmpty() || name.length() < 1 || name.length() > 15) {
             String exceptionMessage = "Pizza name should be between 1 and 15 symbols.";
             throw new IllegalArgumentException(exceptionMessage);
         }
@@ -45,11 +45,10 @@ public class Pizza {
 
     public double getOverallCalories() {
         double doughCalories = dough.calculateCalories();
-        double toppingsCalories = 0.0;
 
-        for (Topping topping : toppings) {
-            toppingsCalories += topping.calculateCalories();
-        }
+        double toppingsCalories = toppings.stream()
+                .mapToDouble(Topping::calculateCalories)
+                .sum();
 
         return doughCalories + toppingsCalories;
     }
