@@ -39,8 +39,7 @@ public class Main {
     }
 
     private static void createTeam(Map<String, Team> teams, String teamName) {
-        Team team = new Team(teamName);
-        teams.putIfAbsent(teamName, team);
+        teams.putIfAbsent(teamName, new Team(teamName));
     }
 
     private static void addPlayer(Map<String, Team> teams, String[] tokens, String teamName) {
