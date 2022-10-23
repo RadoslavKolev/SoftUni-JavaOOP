@@ -24,6 +24,7 @@ public class Main {
             Animal animal;
 
             try {
+                // Enhanced switch doesn't work on Judge
                 switch (animalType) {
                     case "Dog" -> animal = new Dog(name, age, gender);
                     case "Frog" -> animal = new Frog(name, age, gender);
