@@ -10,14 +10,14 @@ public class Main {
 
         List<Identifiable> society = new ArrayList<>();
 
-        executeCommands(scanner, society);
+        fillList(scanner, society);
 
         String fakeIdLastDigits = scanner.nextLine();
 
         printDetainedIDs(society, fakeIdLastDigits);
     }
 
-    private static void executeCommands(Scanner scanner, List<Identifiable> society) {
+    private static void fillList(Scanner scanner, List<Identifiable> society) {
         String input = scanner.nextLine();
 
         while (!input.equals("End")) {
