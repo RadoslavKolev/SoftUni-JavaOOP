@@ -4,7 +4,6 @@ import exercise.militaryElite.military.interfaces.LieutenantGeneral;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class LieutenantGeneralImpl extends PrivateImpl implements LieutenantGeneral {
     private final List<PrivateImpl> privates;
@@ -28,9 +27,11 @@ public class LieutenantGeneralImpl extends PrivateImpl implements LieutenantGene
                 .append("Privates:")
                 .append(System.lineSeparator());
 
+        // toList() doesn't work on Judge
+        // use .collect(Collectors.toList())
         privates.stream()
                 .sorted((soldier1, soldier2) -> Integer.compare(soldier2.getId(), soldier1.getId()))
-                .collect(Collectors.toList())
+                .toList()
                 .forEach(soldier -> builder.append(String.format("  %s", soldier))
                                             .append(System.lineSeparator())
                 );

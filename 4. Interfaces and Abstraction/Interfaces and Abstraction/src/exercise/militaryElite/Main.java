@@ -34,6 +34,7 @@ public class Main {
                 salary = Double.parseDouble(tokens[4]);
             }
 
+            // Enhanced switch doesn't work on Judge
             switch (soldierType) {
                 case "Private" -> {
                     PrivateImpl privateSoldier = new PrivateImpl(id, firstName, lastName, salary);
@@ -47,24 +48,20 @@ public class Main {
                 }
                 case "Engineer" -> {
                     Corps engineerCorps = getCorps(tokens[5]);
-
                     if (engineerCorps == null) {
                         input = scanner.nextLine();
                         continue;
                     }
-
                     EngineerImpl engineer = new EngineerImpl(id, firstName, lastName, salary, engineerCorps);
                     addRepairs(tokens, engineer);
                     System.out.println(engineer);
                 }
                 case "Commando" -> {
                     Corps commandoCorps = getCorps(tokens[5]);
-
                     if (commandoCorps == null) {
                         input = scanner.nextLine();
                         continue;
                     }
-
                     CommandoImpl commando = new CommandoImpl(id, firstName, lastName, salary, commandoCorps);
                     addMissions(tokens, commando);
                     System.out.println(commando);
@@ -74,7 +71,6 @@ public class Main {
                     SpyImpl spy = new SpyImpl(id, firstName, lastName, codeNumber);
                     System.out.println(spy);
                 }
-                default -> System.out.println("No such soldier type!");
             }
 
             input = scanner.nextLine();

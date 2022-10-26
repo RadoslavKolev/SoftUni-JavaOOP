@@ -15,6 +15,5 @@ public class Repair {
             "Part Name: %s Hours Worked: %d",
             this.partName, this.hoursWorked
         );
-
     }
 }
