@@ -69,7 +69,7 @@ public class Main {
 
                     CommandoImpl commando = new CommandoImpl(id, firstName, lastName, salary, commandoCorps);
                     addMissions(tokens, commando);
-                    
+
                     System.out.println(commando);
                 }
                 case "Spy" -> {
