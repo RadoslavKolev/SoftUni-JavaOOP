@@ -1,15 +1,12 @@
 package lection.p04_InterfaceSegregation.p02_identity;
 
 import lection.p04_InterfaceSegregation.p02_identity.interfaces.Account;
-import lection.p04_InterfaceSegregation.p02_identity.interfaces.User;
+import lection.p04_InterfaceSegregation.p02_identity.interfaces.RegistrationRestrictions;
 
-public class AccountManager implements Account {
+public class AccountManager implements Account, RegistrationRestrictions {
     private boolean requireUniqueEmail;
-
     private int minRequiredPasswordLength;
-
     private int maxRequiredPasswordLength;
-
 
     @Override
     public boolean getRequireUniqueEmail() {
@@ -39,20 +36,5 @@ public class AccountManager implements Account {
     @Override
     public void changePassword(String oldPass, String newPass) {
         //change password
-    }
-
-    @Override
-    public Iterable<User> getAllUsersOnline() {
-        throw new UnsupportedOperationException();
-    }
-
-    @Override
-    public Iterable<User> getAllUsers() {
-        throw new UnsupportedOperationException();
-    }
-
-    @Override
-    public User getUserByName(String name) {
-        throw new UnsupportedOperationException();
     }
 }
