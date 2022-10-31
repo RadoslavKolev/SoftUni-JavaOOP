@@ -1,12 +1,13 @@
 package lection.p02_OpenClosedPrinciple.p03_ShoppingCart;
 
+import lection.p02_OpenClosedPrinciple.p03_ShoppingCart.barcodeTypes.OrderItem;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Cart {
     private final List<OrderItem> items;
-
-    public String custmerEmail;
+    public String customerEmail;
 
     public Cart() {
         this.items = new ArrayList<>();
@@ -16,13 +17,12 @@ public class Cart {
         return new ArrayList<OrderItem>(this.items);
     }
 
-
-    public String getCustmerEmail() {
-        return this.custmerEmail;
+    public String getCustomerEmail() {
+        return this.customerEmail;
     }
 
-    public void setCustmerEmail(String custmerEmail) {
-        this.custmerEmail = custmerEmail;
+    public void setCustomerEmail(String customerEmail) {
+        this.customerEmail = customerEmail;
     }
 
     public void add(OrderItem orderItem) {
@@ -32,21 +32,8 @@ public class Cart {
     public double getTotalAmount() {
         double total = 0;
 
-        for(var item : this.items)
-        {
-            if (item.getSku().startsWith("EACH")) {
-                total += item.getQuantity() * 5.0;
-            } else if (item.getSku().startsWith("WEIGHT")) {
-                // quantity is in grams, price is per kg
-                total += item.getQuantity() * 4.0 / 1000;
-            } else if (item.getSku().startsWith("SPECIAL")) {
-                // $0.40 each; 3 for $1.00
-                total += item.getQuantity() * 4.0;
-                int setsOfThree = item.getQuantity() / 3;
-                total -= setsOfThree * 2.0;
-            }
-
-            // more rules are coming!
+        for(var item : this.items) {
+            total += item.getItemPrice();
         }
 
         return total;

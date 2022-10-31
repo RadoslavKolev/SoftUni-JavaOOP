@@ -2,9 +2,7 @@ package lection.p02_OpenClosedPrinciple.p01_FileStream;
 
 public class File {
     private String name;
-
     private int length;
-
     private int sent;
 
     public String getName() {

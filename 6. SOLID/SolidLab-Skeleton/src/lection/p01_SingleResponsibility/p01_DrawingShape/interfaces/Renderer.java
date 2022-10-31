@@ -1,5 +1,5 @@
 package lection.p01_SingleResponsibility.p01_DrawingShape.interfaces;
 
-public interface Rengerer {
+public interface Renderer {
     void render(DrawingRepository drawingRepository, Shape shape);
 }
