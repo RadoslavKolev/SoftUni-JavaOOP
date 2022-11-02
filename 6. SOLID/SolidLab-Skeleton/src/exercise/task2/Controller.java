@@ -13,10 +13,7 @@ public class Controller {
         Appender appender = new ConsoleAppender(layout);
         Logger logger = new MessageLogger(appender);
 
-        logger.logInfo("3/26/2015 2:08:11 PM", "Error parsing JSON.");
-        logger.logWarning("3/26/2015 2:08:11 PM", "Error parsing JSON.");
         logger.logError("3/26/2015 2:08:11 PM", "Error parsing JSON.");
-        logger.logCritical("3/26/2015 2:08:11 PM", "Error parsing JSON.");
-        logger.logFatal("3/26/2015 2:08:11 PM", "Error parsing JSON.");
+        logger.logInfo("3/26/2015 2:08:11 PM", "User Pesho successfully registered.");
     }
 }
