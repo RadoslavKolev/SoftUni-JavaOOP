@@ -4,9 +4,18 @@ import exercise.task2.appenders.Appender;
 import exercise.task2.enums.LogLevel;
 
 public class MessageLogger implements Logger {
-    private final Appender[] appenders;
+    private Appender[] appenders;
 
     public MessageLogger(Appender... appenders) {
+        this.setAppenders(appenders);
+    }
+
+    public void setAppenders(Appender[] appenders) {
+        if (appenders == null || appenders.length == 0) {
+            String exceptionMessage = "Message logger should have at least one parameter";
+            throw new IllegalArgumentException(exceptionMessage);
+        }
+
         this.appenders = appenders;
     }
 
