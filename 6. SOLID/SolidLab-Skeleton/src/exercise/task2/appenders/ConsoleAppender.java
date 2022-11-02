@@ -1,5 +1,6 @@
 package exercise.task2.appenders;
 
+import exercise.task2.enums.LogLevel;
 import exercise.task2.layouts.Layout;
 
 public class ConsoleAppender implements Appender {
@@ -10,7 +11,7 @@ public class ConsoleAppender implements Appender {
     }
 
     @Override
-    public void append(String timeStamp, String level, String message) {
+    public void append(String timeStamp, LogLevel level, String message) {
         System.out.println(layout.format(timeStamp, level, message));
     }
 }
