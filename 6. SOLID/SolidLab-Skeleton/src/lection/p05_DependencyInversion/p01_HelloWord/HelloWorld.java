@@ -6,12 +6,10 @@ public class HelloWorld {
     public String greeting(String name) {
         if (LocalDateTime.now().getHour()< 12) {
             return "Good morning, " + name;
-        }
-
-        if (LocalDateTime.now().getHour() < 18) {
+        } else if (LocalDateTime.now().getHour() < 18) {
             return "Good afternoon, " + name;
+        } else {
+            return "Good evening, " + name;
         }
-
-        return "Good evening, " + name;
     }
 }
