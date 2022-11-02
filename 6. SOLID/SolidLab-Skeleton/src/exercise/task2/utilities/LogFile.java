@@ -15,6 +15,9 @@ public class LogFile implements File{
 
     @Override
     public int size() {
-        return this.memory.chars().sum();
+        return this.memory
+                .chars()
+                .filter(Character::isAlphabetic)
+                .sum();
     }
 }
