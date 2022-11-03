@@ -4,17 +4,20 @@ import exercise.task2.enums.LogLevel;
 import exercise.task2.layouts.Layout;
 import exercise.task2.utilities.File;
 
-public class FileAppender implements Appender{
-    private final Layout layout;
+public class FileAppender extends BaseAppender {
     private final File file;
 
     public FileAppender(Layout layout, File file) {
-        this.layout = layout;
+        super(layout);
         this.file = file;
     }
 
     @Override
     public void append(String timeStamp, LogLevel level, String message) {
-        file.write(layout.format(timeStamp, level, message));
+        file.write(getLayout().format(timeStamp, level, message));
+    }
+
+    public File getFile() {
+        return this.file;
     }
 }

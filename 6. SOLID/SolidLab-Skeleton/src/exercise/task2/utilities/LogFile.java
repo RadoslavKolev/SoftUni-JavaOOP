@@ -1,7 +1,7 @@
 package exercise.task2.utilities;
 
 public class LogFile implements File{
-    private StringBuilder memory;
+    private final StringBuilder memory;
 
     public LogFile() {
         this.memory = new StringBuilder();

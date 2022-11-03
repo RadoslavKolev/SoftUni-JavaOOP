@@ -5,6 +5,13 @@ import exercise.task2.enums.LogLevel;
 public class XmlLayout implements Layout{
     @Override
     public String format(String timeStamp, LogLevel level, String message) {
-        return null;
+        return String.format(
+                "<log>%n" +
+                "   <date>%s</date>%n" +
+                "   <level>%s</level>%n" +
+                "   <message>%s</message>%n" +
+                "</log>",
+                timeStamp, level, message
+        );
     }
 }

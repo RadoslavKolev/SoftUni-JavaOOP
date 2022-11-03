@@ -1,21 +1,15 @@
 package exercise.task2.loggers;
 
 import exercise.task2.appenders.Appender;
+import exercise.task2.appenders.FileAppender;
 import exercise.task2.enums.LogLevel;
 
+import java.util.Map;
+
 public class MessageLogger implements Logger {
-    private Appender[] appenders;
+    private Map<Appender, LogLevel> appenders;
 
-    public MessageLogger(Appender... appenders) {
-        this.setAppenders(appenders);
-    }
-
-    public void setAppenders(Appender[] appenders) {
-        if (appenders == null || appenders.length == 0) {
-            String exceptionMessage = "Message logger should have at least one parameter";
-            throw new IllegalArgumentException(exceptionMessage);
-        }
-
+    public MessageLogger(Map<Appender, LogLevel> appenders) {
         this.appenders = appenders;
     }
 
@@ -45,8 +39,45 @@ public class MessageLogger implements Logger {
     }
 
     private void logToAll(String timeStamp, LogLevel level, String message) {
-        for (Appender appender : appenders) {
-            appender.append(timeStamp, level, message);
+        for (var entry : appenders.entrySet()) {
+            Appender appender = entry.getKey();
+            LogLevel appenderLevel = entry.getValue();
+
+            if (appenderLevel.ordinal() <= level.ordinal()) {
+                appender.append(timeStamp, level, message);
+            }
         }
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder builder = new StringBuilder();
+
+        builder.append("Logger info").append(System.lineSeparator());
+
+        for (var entry : appenders.entrySet()) {
+            Appender appender = entry.getKey();
+            LogLevel level = entry.getValue();
+
+            builder.append(String.format(
+                    "Appender type: %s, Layout type: %s, Report level: %s, Messages appended: %d",
+                    appender.getClass().getSimpleName(),
+                    appender.getLayout().getClass().getSimpleName(),
+                    level.toString(),
+                    appender.getMessages()
+            ));
+
+            if (appender instanceof FileAppender) {
+                builder.append(String.format(
+                        ", File size: %d",
+                        ((FileAppender) appender).getFile().size()
+                ));
+            }
+
+            builder.append(System.lineSeparator());
+        }
+
+
+        return builder.toString().trim();
     }
 }
