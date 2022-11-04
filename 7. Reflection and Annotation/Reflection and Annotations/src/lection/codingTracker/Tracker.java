@@ -17,6 +17,7 @@ public class Tracker {
         printMapElements(methodsByAuthor);
     }
 
+    @Author(name = "Ivan")
     private static void fillMap(Class<?> classInfo, Map<String, String> methodsByAuthor) {
         Method[] methods = classInfo.getDeclaredMethods();
 
@@ -32,6 +33,7 @@ public class Tracker {
         }
     }
 
+    @Author(name = "Diego")
     private static void printMapElements(Map<String, String> methodsByAuthor) {
         for (var entry : methodsByAuthor.entrySet()) {
             System.out.println(entry.getKey() + " - " + entry.getValue());
