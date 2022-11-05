@@ -16,7 +16,7 @@ public class Tracker {
         fillMap(classInfo, methodsByAuthor);
         printMapElements(methodsByAuthor);
     }
-    
+
     private static void fillMap(Class<?> classInfo, Map<String, String> methodsByAuthor) {
         Method[] methods = classInfo.getDeclaredMethods();
 
