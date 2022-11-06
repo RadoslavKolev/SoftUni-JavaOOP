@@ -26,11 +26,7 @@ public abstract class AbstractUnit implements Unit {
     
     @Override
     public void setHealth(int health) {
-        if (health < 0) {
-            this.health = 0;
-        } else {
-            this.health = health;
-        }
+        this.health = Math.max(health, 0);
     }
 
     @Override

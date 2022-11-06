@@ -51,7 +51,7 @@ public class Main {
 
         final String FIELD_TO_PRINT = "innerValue";
         final String END_CYCLE_COMMAND = "END";
-        
+
         String input = scanner.nextLine();
 
         while (!input.equals(END_CYCLE_COMMAND)) {
