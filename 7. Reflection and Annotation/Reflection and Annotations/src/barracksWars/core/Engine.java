@@ -43,7 +43,6 @@ public class Engine implements Runnable {
 		}
 	}
 
-	// TODO: refactor for problem 4
 	private String interpretCommand(String[] data, String commandName)
 			throws ExecutionControl.NotImplementedException,
 			ClassNotFoundException,
@@ -63,15 +62,14 @@ public class Engine implements Runnable {
 			case "fight":
 				result = this.fightCommand(data);
 				break;
+			case "retire":
+				result = this.removeUnitCommand(data);
+				break;
 			default:
 				throw new RuntimeException("Invalid command!");
 		}
 
 		return result;
-	}
-
-	private String reportCommand(String[] data) {
-		return this.repository.getStatistics();
 	}
 
 	private String addUnitCommand(String[] data)
@@ -86,8 +84,19 @@ public class Engine implements Runnable {
 		this.repository.addUnit(unitToAdd);
 		return unitType + " added!";
 	}
-	
+
+	private String reportCommand(String[] data) {
+		return this.repository.getStatistics();
+	}
+
 	private String fightCommand(String[] data) {
 		return "fight";
+	}
+
+	private String removeUnitCommand(String[] data)
+			throws ExecutionControl.NotImplementedException {
+		final String unitType = data[1];
+		this.repository.removeUnit(unitType);
+		return unitType + " retired!";
 	}
 }
