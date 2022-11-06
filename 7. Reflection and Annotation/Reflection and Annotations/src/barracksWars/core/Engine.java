@@ -10,6 +10,7 @@ import jdk.jshell.spi.ExecutionControl;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.reflect.InvocationTargetException;
 
 public class Engine implements Runnable {
 	private final Repository repository;
@@ -43,7 +44,13 @@ public class Engine implements Runnable {
 	}
 
 	// TODO: refactor for problem 4
-	private String interpretCommand(String[] data, String commandName) throws ExecutionControl.NotImplementedException {
+	private String interpretCommand(String[] data, String commandName)
+			throws ExecutionControl.NotImplementedException,
+			ClassNotFoundException,
+			InvocationTargetException,
+			NoSuchMethodException,
+			InstantiationException,
+			IllegalAccessException {
 		String result;
 
 		switch (commandName) {
@@ -67,7 +74,13 @@ public class Engine implements Runnable {
 		return this.repository.getStatistics();
 	}
 
-	private String addUnitCommand(String[] data) throws ExecutionControl.NotImplementedException {
+	private String addUnitCommand(String[] data)
+			throws ExecutionControl.NotImplementedException,
+			ClassNotFoundException,
+			InvocationTargetException,
+			NoSuchMethodException,
+			InstantiationException,
+			IllegalAccessException {
 		String unitType = data[1];
 		Unit unitToAdd = this.unitFactory.createUnit(unitType);
 		this.repository.addUnit(unitToAdd);
