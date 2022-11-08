@@ -45,4 +45,13 @@ public class DummyTest {
         aliveDummy.giveExperience();
     }
 
+    @Test
+    public void test_AliveDummy_IsAlive() {
+        assertFalse(aliveDummy.isDead());
+    }
+
+    @Test
+    public void test_DeadDummy_IsDead() {
+        assertTrue(deadDummy.isDead());
+    }
 }
