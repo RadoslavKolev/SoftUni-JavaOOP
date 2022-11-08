@@ -1,8 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21597393-d89f-475f-8178-fe1b0778ea45" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../9. Debugging Techniques/2. Lab.pdf" beforeDir="false" />
+    <list default="true" id="b43df99a-0b16-45ae-9913-171b7f9947d4" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/10. Unit Testing.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/10__Unit_Testing.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/UnitTesting.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/exercise/UnitTesting_Exercises/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/exercise/UnitTesting_Exercises/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/exercise/UnitTesting_Exercises/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/exercise/UnitTesting_Exercises/UnitTesting_Exercises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/exercise/UnitTesting_Exercises/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/exercise/UnitTesting_Exercises/src/main/java/p01_Database/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/exercise/UnitTesting_Exercises/src/main/java/p02_ExtendedDatabase/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/exercise/UnitTesting_Exercises/src/main/java/p02_ExtendedDatabase/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/exercise/UnitTesting_Exercises/src/main/java/p03_IteratorTest/ListIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/exercise/UnitTesting_Exercises/src/main/java/p04_BubbleSortTest/Bubble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/exercise/UnitTesting_Exercises/src/main/java/p05_CustomLinkedList/CustomLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/exercise/UnitTesting_Exercises/src/main/java/p06_TirePressureMonitoringSystem/Alarm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/exercise/UnitTesting_Exercises/src/main/java/p06_TirePressureMonitoringSystem/Sensor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/lection/rpg_lab/Axe.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/lection/rpg_lab/Dummy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UnitTesting/src/lection/rpg_lab/Hero.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2HG656nsYwTYRbWwFmqUOqoPE0f" />
+  <component name="ProjectId" id="2HGZxi3sNTf11Ka2E44fcXE1Mdv" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -27,11 +53,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="21597393-d89f-475f-8178-fe1b0778ea45" name="Changes" comment="" />
-      <created>1667898889648</created>
+      <changelist id="b43df99a-0b16-45ae-9913-171b7f9947d4" name="Changes" comment="" />
+      <created>1667913628249</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1667898889648</updated>
+      <updated>1667913628249</updated>
     </task>
     <servers />
   </component>
