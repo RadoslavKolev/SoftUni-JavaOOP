@@ -7,7 +7,7 @@ public class EnterNumbers {
     public static void main(String[] args) {
         final int TARGET_VALUE_OF_NUMBERS = 10;
         Scanner scanner = new Scanner(System.in);
-        
+
         List<Integer> numbers = new ArrayList<>();
 
         int min = 1;    // Initial Min value
