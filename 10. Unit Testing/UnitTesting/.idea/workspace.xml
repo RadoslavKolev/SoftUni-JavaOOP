@@ -4,37 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b8e76f7-5455-42b2-bfa2-ee926875030c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/rpg_lab/AxeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/rpg_lab/AxeTestShortened.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/rpg_lab/DummyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UnitTesting_Exercises/UnitTesting_Exercises.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/libraries/10__Unit_Testing.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UnitTesting.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/UnitTesting_Exercises/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/UnitTesting_Exercises/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/UnitTesting_Exercises/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/UnitTesting_Exercises/UnitTesting_Exercises.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/UnitTesting_Exercises/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/UnitTesting_Exercises/src/main/java/p01_Database/Database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/UnitTesting_Exercises/src/main/java/p02_ExtendedDatabase/Database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/UnitTesting_Exercises/src/main/java/p02_ExtendedDatabase/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/UnitTesting_Exercises/src/main/java/p03_IteratorTest/ListIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/UnitTesting_Exercises/src/main/java/p04_BubbleSortTest/Bubble.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/UnitTesting_Exercises/src/main/java/p05_CustomLinkedList/CustomLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/UnitTesting_Exercises/src/main/java/p06_TirePressureMonitoringSystem/Alarm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exercise/UnitTesting_Exercises/src/main/java/p06_TirePressureMonitoringSystem/Sensor.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lection/rpg_lab/Axe.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lection/rpg_lab/Dummy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lection/rpg_lab/Hero.java" beforeDir="false" />
+    <list default="true" id="3b8e76f7-5455-42b2-bfa2-ee926875030c" name="Changes" comment="Added 2 more tests to DummyTest">
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg_lab/interfaces/Target.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/rpg_lab/interfaces/Weapon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rpg_lab/HeroMockitoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/rpg_lab/HeroTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg_lab/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg_lab/Axe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg_lab/Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg_lab/Dummy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/rpg_lab/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg_lab/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rpg_lab/Axe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpg_lab/Axe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rpg_lab/Dummy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpg_lab/Dummy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rpg_lab/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpg_lab/Hero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/rpg_lab/AxeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rpg_lab/AxeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/rpg_lab/AxeTestShortened.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rpg_lab/AxeTestShortened.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/rpg_lab/DummyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rpg_lab/DummyTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +29,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
@@ -78,7 +64,7 @@
       <recent name="rpg_lab" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DummyTest">
+  <component name="RunManager" selected="JUnit.HeroMockitoTest">
     <configuration name="AxeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
@@ -109,8 +95,57 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HeroMockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rpg_lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rpg_lab" />
+      <option name="MAIN_CLASS_NAME" value="rpg_lab.HeroMockitoTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeroMockitoTest.test_HeroGainsXP_WhenKillingTarget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rpg_lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rpg_lab" />
+      <option name="MAIN_CLASS_NAME" value="rpg_lab.HeroMockitoTest" />
+      <option name="METHOD_NAME" value="test_HeroGainsXP_WhenKillingTarget" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rpg_lab.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="rpg_lab" />
+      <option name="MAIN_CLASS_NAME" value="rpg_lab.HeroTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HeroMockitoTest" />
+        <item itemvalue="JUnit.HeroMockitoTest.test_HeroGainsXP_WhenKillingTarget" />
+        <item itemvalue="JUnit.HeroTest" />
         <item itemvalue="JUnit.DummyTest" />
         <item itemvalue="JUnit.AxeTest" />
       </list>
@@ -125,6 +160,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667913653745</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added 2 more tests to DummyTest">
+      <created>1667922988131</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667922988131</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,5 +180,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added 2 more tests to DummyTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 2 more tests to DummyTest" />
   </component>
 </project>
