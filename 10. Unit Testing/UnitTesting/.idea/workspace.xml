@@ -5,21 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b8e76f7-5455-42b2-bfa2-ee926875030c" name="Changes" comment="Added 2 more tests to DummyTest">
-      <change afterPath="$PROJECT_DIR$/src/main/java/rpg_lab/interfaces/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/rpg_lab/interfaces/Weapon.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/rpg_lab/HeroMockitoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/rpg_lab/HeroTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/p01_Database/DatabaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/p02_ExtendedDatabase/DatabaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/p03_IteratorTest/ListIteratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/p04_BubbleSortTest/BubbleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/p05_CustomLinkedList/CustomLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/p06_TirePressureMonitoringSystem/AlarmTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rpg_lab/Axe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg_lab/Axe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rpg_lab/Dummy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg_lab/Dummy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/rpg_lab/Hero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/rpg_lab/Hero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rpg_lab/Axe.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpg_lab/Axe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rpg_lab/Dummy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpg_lab/Dummy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rpg_lab/Hero.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rpg_lab/Hero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/rpg_lab/AxeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rpg_lab/AxeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/rpg_lab/AxeTestShortened.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rpg_lab/AxeTestShortened.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/rpg_lab/DummyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/rpg_lab/DummyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/UnitTesting_Exercises.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p01_Database/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p02_ExtendedDatabase/Database.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p02_ExtendedDatabase/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p03_IteratorTest/ListIterator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p04_BubbleSortTest/Bubble.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p05_CustomLinkedList/CustomLinkedList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p06_TirePressureMonitoringSystem/Alarm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p06_TirePressureMonitoringSystem/Sensor.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +37,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -47,107 +54,113 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": ""
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="rpg_lab" />
+      <recent name="exercise.p05_CustomLinkedList" />
+      <recent name="exercise.p04_BubbleSortTest" />
+      <recent name="exercise.p06_TirePressureMonitoringSystem" />
+      <recent name="exercise.p03_IteratorTest" />
+      <recent name="exercise.p02_ExtendedDatabase" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HeroMockitoTest">
-    <configuration name="AxeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.CustomLinkedListTest.test_GetElement">
+    <configuration name="AlarmTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rpg_lab.*" />
+          <option name="PATTERN" value="exercise.p06_TirePressureMonitoringSystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rpg_lab" />
-      <option name="MAIN_CLASS_NAME" value="rpg_lab.AxeTest" />
+      <option name="PACKAGE_NAME" value="exercise.p06_TirePressureMonitoringSystem" />
+      <option name="MAIN_CLASS_NAME" value="exercise.p06_TirePressureMonitoringSystem.AlarmTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DummyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AlarmTest.testAlarm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rpg_lab.*" />
+          <option name="PATTERN" value="exercise.p06_TirePressureMonitoringSystem.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rpg_lab" />
-      <option name="MAIN_CLASS_NAME" value="rpg_lab.DummyTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeroMockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rpg_lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rpg_lab" />
-      <option name="MAIN_CLASS_NAME" value="rpg_lab.HeroMockitoTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HeroMockitoTest.test_HeroGainsXP_WhenKillingTarget" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="UnitTesting" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="rpg_lab.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="rpg_lab" />
-      <option name="MAIN_CLASS_NAME" value="rpg_lab.HeroMockitoTest" />
-      <option name="METHOD_NAME" value="test_HeroGainsXP_WhenKillingTarget" />
+      <option name="PACKAGE_NAME" value="exercise.p06_TirePressureMonitoringSystem" />
+      <option name="MAIN_CLASS_NAME" value="exercise.p06_TirePressureMonitoringSystem.AlarmTest" />
+      <option name="METHOD_NAME" value="testAlarm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeroTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BubbleTest.testSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="UnitTesting" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rpg_lab.*" />
+          <option name="PATTERN" value="exercise.p04_BubbleSortTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="rpg_lab" />
-      <option name="MAIN_CLASS_NAME" value="rpg_lab.HeroTest" />
+      <option name="PACKAGE_NAME" value="exercise.p04_BubbleSortTest" />
+      <option name="MAIN_CLASS_NAME" value="exercise.p04_BubbleSortTest.BubbleTest" />
+      <option name="METHOD_NAME" value="testSort" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomLinkedListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise.p05_CustomLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercise.p05_CustomLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="exercise.p05_CustomLinkedList.CustomLinkedListTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomLinkedListTest.test_GetElement" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="UnitTesting" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exercise.p05_CustomLinkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="exercise.p05_CustomLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="exercise.p05_CustomLinkedList.CustomLinkedListTest" />
+      <option name="METHOD_NAME" value="test_GetElement" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.HeroMockitoTest" />
-        <item itemvalue="JUnit.HeroMockitoTest.test_HeroGainsXP_WhenKillingTarget" />
-        <item itemvalue="JUnit.HeroTest" />
-        <item itemvalue="JUnit.DummyTest" />
-        <item itemvalue="JUnit.AxeTest" />
+        <item itemvalue="JUnit.CustomLinkedListTest.test_GetElement" />
+        <item itemvalue="JUnit.CustomLinkedListTest" />
+        <item itemvalue="JUnit.BubbleTest.testSort" />
+        <item itemvalue="JUnit.AlarmTest" />
+        <item itemvalue="JUnit.AlarmTest.testAlarm" />
       </list>
     </recent_temporary>
   </component>
@@ -184,5 +197,19 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added 2 more tests to DummyTest" />
     <option name="LAST_COMMIT_MESSAGE" value="Added 2 more tests to DummyTest" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/UnitTesting$DatabaseTest.ic" NAME="DatabaseTest Coverage Results" MODIFIED="1668417186931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>exercise.p01_Database.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTesting$ListIteratorTest.ic" NAME="ListIteratorTest Coverage Results" MODIFIED="1668425494379" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>exercise.p03_IteratorTest.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTesting$DatabaseTest_test_RemoveLastPerson.ic" NAME="DatabaseTest.test_RemoveLastPerson Coverage Results" MODIFIED="1668421659695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>exercise.p02_ExtendedDatabase.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/UnitTesting$DatabaseTest__1_.ic" NAME="DatabaseTest (1) Coverage Results" MODIFIED="1668422853588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>exercise.p02_ExtendedDatabase.*</FILTER>
+    </SUITE>
   </component>
 </project>
