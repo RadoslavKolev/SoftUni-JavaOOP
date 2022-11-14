@@ -19,13 +19,12 @@ public class EngineImpl implements Engine {
     @Override
     public void run() {
         while (true) {
-            String result = null;
+            String result;
+
             try {
                 result = processInput();
 
-                if (result.equals("Exit")) {
-                    break;
-                }
+                if (result.equals("Exit")) break;
             } catch (NullPointerException | IllegalArgumentException | IllegalStateException | IOException e) {
                 result = e.getMessage();
             }
@@ -33,6 +32,7 @@ public class EngineImpl implements Engine {
             System.out.println(result);
         }
     }
+
     private String processInput() throws IOException {
         String input = this.reader.readLine();
         String[] tokens = input.split("\\s+");
@@ -67,40 +67,47 @@ public class EngineImpl implements Engine {
                 result = Command.Exit.name();
                 break;
         }
+
         return result;
     }
     private String addArea(String[] data) {
-        //TODO
-        return null;
+        String areaType = data[0];
+        String areaName = data[1];
+        return controller.addArea(areaType, areaName);
     }
 
     private String buyFood(String[] data) {
-        //TODO
-        return null;
+        String foodType = data[0];
+        return controller.buyFood(foodType);
     }
 
     private String foodForArea(String[] data) {
-        //TODO
-        return null;
+        String areaName = data[0];
+        String foodType = data[1];
+        return controller.foodForArea(areaName, foodType);
     }
 
     private String addAnimal(String[] data) {
-        //TODO
-        return null;
+        String areaName = data[0];
+        String animalType = data[1];
+        String animalName = data[2];
+        String animalKind = data[3];
+        double price = Double.parseDouble(data[4]);
+
+        return controller.addAnimal(areaName, animalType, animalName, animalKind, price);
     }
 
     private String feedAnimal(String[] data) {
-        //TODO
-        return null;
+        String areaName = data[0];
+        return controller.feedAnimal(areaName);
     }
 
     private String calculateKg(String[] data) {
-        //TODO
-        return null;
+        String areaName = data[0];
+        return controller.calculateKg(areaName);
     }
 
     private String getStatistics() {
-        //TODO
-        return null;
+        return controller.getStatistics();
     }
 }
