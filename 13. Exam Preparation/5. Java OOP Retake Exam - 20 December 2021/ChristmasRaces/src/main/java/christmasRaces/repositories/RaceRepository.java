@@ -8,30 +8,30 @@ import java.util.Collection;
 import java.util.Collections;
 
 public class RaceRepository implements Repository<Race> {
-    private Collection<Race> models;
+    private final Collection<Race> races;
 
     public RaceRepository() {
-        this.models = new ArrayList<>();
+        this.races = new ArrayList<>();
     }
 
     @Override
     public void add(Race model) {
-        this.models.add(model);
+        this.races.add(model);
     }
 
     @Override
     public boolean remove(Race model) {
-        return this.models.remove(model);
+        return this.races.remove(model);
     }
 
     @Override
     public Collection<Race> getAll() {
-        return Collections.unmodifiableCollection(this.models);
+        return Collections.unmodifiableCollection(this.races);
     }
 
     @Override
     public Race getByName(String name) {
-        return this.models.stream()
+        return this.races.stream()
                 .filter(race -> race.getName().equals(name))
                 .findFirst()
                 .orElse(null);

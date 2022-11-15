@@ -8,30 +8,30 @@ import java.util.Collection;
 import java.util.Collections;
 
 public class DriverRepository implements Repository<Driver> {
-    private Collection<Driver> models;
+    private final Collection<Driver> drivers;
 
     public DriverRepository() {
-        this.models = new ArrayList<>();
+        this.drivers = new ArrayList<>();
     }
 
     @Override
     public void add(Driver model) {
-        this.models.add(model);
+        this.drivers.add(model);
     }
 
     @Override
     public boolean remove(Driver model) {
-        return this.models.remove(model);
+        return this.drivers.remove(model);
     }
 
     @Override
     public Collection<Driver> getAll() {
-        return Collections.unmodifiableCollection(this.models);
+        return Collections.unmodifiableCollection(this.drivers);
     }
 
     @Override
     public Driver getByName(String name) {
-        return this.models.stream()
+        return this.drivers.stream()
                 .filter(driver -> driver.getName().equals(name))
                 .findFirst()
                 .orElse(null);

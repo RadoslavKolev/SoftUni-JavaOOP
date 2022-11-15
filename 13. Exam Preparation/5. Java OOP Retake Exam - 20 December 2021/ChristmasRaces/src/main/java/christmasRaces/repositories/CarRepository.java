@@ -8,30 +8,30 @@ import java.util.Collection;
 import java.util.Collections;
 
 public class CarRepository implements Repository<Car> {
-    private Collection<Car> models;
+    private final Collection<Car> cars;
 
     public CarRepository() {
-        this.models = new ArrayList<>();
+        this.cars = new ArrayList<>();
     }
 
     @Override
     public void add(Car model) {
-        this.models.add(model);
+        this.cars.add(model);
     }
 
     @Override
     public boolean remove(Car model) {
-        return this.models.remove(model);
+        return this.cars.remove(model);
     }
 
     @Override
     public Collection<Car> getAll() {
-        return Collections.unmodifiableCollection(this.models);
+        return Collections.unmodifiableCollection(this.cars);
     }
 
     @Override
     public Car getByName(String name) {
-        return this.models.stream()
+        return this.cars.stream()
                 .filter(car -> car.getModel().equals(name))
                 .findFirst()
                 .orElse(null);
