@@ -101,7 +101,7 @@ public class ControllerImpl implements Controller {
         } else {
             throw new IllegalArgumentException(ExceptionMessages.INVALID_ANIMAL_TYPE);
         }
-        
+
         Area area = this.areas.get(areaName);
         String areaType = area.getClass().getSimpleName();
 

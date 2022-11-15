@@ -6,8 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class PetStore {
-
-    private List<Animal> animals;
+    private final List<Animal> animals;
 
     public PetStore() {
         this.animals = new ArrayList<>();
@@ -22,9 +21,9 @@ public class PetStore {
     }
 
     public List<Animal> findAllAnimalsWithMaxKilograms(int kg) {
-        List<Animal> animals = this.animals.stream().filter(c -> c.getMaxKilograms() > kg).collect(Collectors.toList());
-
-        return animals;
+        return this.animals.stream()
+                .filter(c -> c.getMaxKilograms() > kg)
+                .collect(Collectors.toList());
     }
 
     public void addAnimal(Animal animal) {
@@ -36,20 +35,16 @@ public class PetStore {
     }
 
     public Animal getTheMostExpensiveAnimal() {
-        Animal animal = this
-                .animals
-                .stream()
+        return this.animals.stream()
                 .sorted((c1, c2) -> Double.compare(c2.getPrice(), c1.getPrice()))
                 .limit(1)
                 .findFirst()
                 .orElse(null);
-
-        return animal;
     }
 
     public List<Animal> findAllAnimalBySpecie(String specie) {
-        List<Animal> animals = this.animals.stream().filter(c -> c.getSpecie().equals(specie)).collect(Collectors.toList());
-
-        return animals;
+        return this.animals.stream()
+                .filter(c -> c.getSpecie().equals(specie))
+                .collect(Collectors.toList());
     }
 }

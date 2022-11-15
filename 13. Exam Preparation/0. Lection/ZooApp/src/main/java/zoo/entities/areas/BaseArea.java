@@ -47,7 +47,7 @@ public abstract class BaseArea implements Area {
 
     @Override
     public int sumCalories() {
-        return foods.stream()
+        return this.foods.stream()
                 .mapToInt(Food::getCalories)
                 .sum();
     }
