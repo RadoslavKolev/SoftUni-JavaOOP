@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3b8e76f7-5455-42b2-bfa2-ee926875030c" name="Changes" comment="Added 2 more tests to DummyTest">
-      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/p01_Database/DatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/p02_ExtendedDatabase/DatabaseTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/p03_IteratorTest/ListIteratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/p04_BubbleSortTest/BubbleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/p05_CustomLinkedList/CustomLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/exercise/p06_TirePressureMonitoringSystem/AlarmTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/UnitTesting_Exercises.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p01_Database/Database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p02_ExtendedDatabase/Database.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p02_ExtendedDatabase/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p03_IteratorTest/ListIterator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p04_BubbleSortTest/Bubble.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p05_CustomLinkedList/CustomLinkedList.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p06_TirePressureMonitoringSystem/Alarm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UnitTesting_Exercises/src/main/java/p06_TirePressureMonitoringSystem/Sensor.java" beforeDir="false" />
-    </list>
+    <list default="true" id="3b8e76f7-5455-42b2-bfa2-ee926875030c" name="Changes" comment="Added 2 more tests to DummyTest" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
