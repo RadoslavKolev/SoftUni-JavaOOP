@@ -81,7 +81,6 @@ public abstract class BaseHouse implements House {
         this.cats.forEach(Cat::eating);
     }
 
-    // TODO: Possible Error
     @Override
     public String getStatistics() {
         String catOutput = this.cats.isEmpty()

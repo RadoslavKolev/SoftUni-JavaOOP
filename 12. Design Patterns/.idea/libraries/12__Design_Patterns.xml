@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="12. Design Patterns">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/prototypeExercise.zip!/" />
+      <root url="jar://$PROJECT_DIR$/13. Java-OOP-Design-Patterns-Resources.zip!/" />
+      <root url="jar://$PROJECT_DIR$/factoryExercise.zip!/" />
+      <root url="jar://$PROJECT_DIR$/builderExercise.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

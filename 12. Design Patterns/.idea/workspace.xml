@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="73ab2388-156d-43ee-89bd-a745a69d4943" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../11. Test Driven Development/TestDrivenDevelopment/src/test/java/exercise/ChainblockImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../11. Test Driven Development/TestDrivenDevelopment/src/test/java/lection/InstockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14. Regular Exam/CatHouseApp/src/main/java/catHouse/entities/houses/BaseHouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14. Regular Exam/CatHouseApp/src/main/java/catHouse/entities/houses/BaseHouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../14. Regular Exam/CatHouseApp/src/main/java/catHouse/repositories/ToyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../14. Regular Exam/CatHouseApp/src/main/java/catHouse/repositories/ToyRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2HuL2f5EPPvKyEmdSKTcsYgwik7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="73ab2388-156d-43ee-89bd-a745a69d4943" name="Changes" comment="" />
+      <created>1669129818299</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669129818299</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

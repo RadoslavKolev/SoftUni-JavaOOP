@@ -22,7 +22,6 @@ public class ToyRepository implements Repository {
         return this.toys.remove(toy);
     }
 
-    // TODO: Possible error
     @Override
     public Toy findFirst(String type) {
         return this.toys.stream()
